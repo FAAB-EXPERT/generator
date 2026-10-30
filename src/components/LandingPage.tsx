@@ -931,7 +931,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 }`}
               >
                 <div className="mb-4 flex items-center justify-center">
-                  <AppLogo className="w-40 h-40 sm:w-48 sm:h-48 md:w-52 md:h-52 drop-shadow-[0_10px_25px_rgba(2,132,199,0.35)]" />
+                  <div className="p-3.5 sm:p-4 rounded-3xl bg-white shadow-2xl border-2 border-slate-200/90 inline-flex items-center justify-center shrink-0">
+                    <AppLogo className="w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48 object-contain" />
+                  </div>
                 </div>
                 <div className="text-xs font-black uppercase tracking-widest text-[#0284c7]">
                   {isEn
